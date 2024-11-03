@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+ <html lang="en">
+<title>Nadra Finder | HUSNAIN DATABASE</title>
+<meta charset="UTF-8">
+<link href="nadradatabase.png" rel="icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="res/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<style>
+	body {font-family: "Lato", sans-serif; background-color: #636e72;}
+	.mySlides {display: none}
+
+	.color1{
+		background-color: #2d3436;
+		color: white;
+	}
+
+	.color2{
+		background-color: #b2bec3;
+	}
+
+	.color3{
+		background-color: #636e72;
+		color: white;
+	}
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+</style>
+<body>
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar color1 w3-card">
+			<a href="application.php" class="w3-bar-item w3-button w3-padding-large w3-hover-red"><img src="search.png" height="43" width="50" /></a>
+			<a href="#" type="submit" name="logout" class="w3-padding-large w3-hover-red  w3-right"><i class="fa fa-plane fa-2x"></i></a>
+		</div>
+	</div>
+	<!-- Page content -->
+	<div class="w3-content color2" style="max-width:2000px;margin-top:65px">
+		<!-- Automatic Slideshow Images -->
+		<div class="mySlides w3-display-container w3-center">
+			<img src="wa.png" style="width:100%" height="90">
+		</div>
+             <div class="mySlides w3-display-container w3-center">
+			<img src="k/2nd.png" style="width:100%" height="90">
+</div>
+</div>
+    <p></p>
+
+	</div>
+    <div class="w3-row-padding w3-margin-bottom" style="text-align: center;">
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="paid/Number.php">Sim Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/Huu/cnic.php">Cnic Sims</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="ll.php">Cnic Copy <img src="newflash2.gif"></a>
+      </div>
+       <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://excise.gos.pk/vehicle/vehicle_search">Vehicle Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/sim/app/login/index.php">Family Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://mtmis.excise.punjab.gov.pk/">Vehicles Info</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16"> 
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="https://bill.pitc.com.pk/iescobill">Bill Check</a>
+        
+
+               </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="https://visa.nadra.gov.pk/verify/">Visa Details</a>
+      
+        </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="//dlims.punjab.gov.pk/verify">License Details</a>  
+        </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="//cnic.sims.pk">Check Cnic Sims</a>
+      
+    		</div>
+
+    
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/sim">Fresh Data 2024<img src="newflash2.gif"></a>
+  </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://imei.info">Imei info</a>
+     </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://ding.com">Check Sim Network</a>
+    	
+     </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://pcmag.speedtestcustom.com/">Test Net Speed</a>
+     
+</div>
+</div>
+  <center>
+		<a class="w3-button w3-border w3-red w3-round-large w3-section" href="https://simdetails-2023.online/sim/app/login/index.php">Paid Login | Unlock More Premium Features.</a>
+			<div class="fa fa-whhatsapp">
+  </div>
+		<a class="w3-button w3-border w3-pink" href="https://chat.whatsapp.com/Kqujmgdc18E6DmXIqWMosz">Join Our Whatsapp Helping Group</a>
+			<div class="fa fa-whatsbapp">
+</center>
+<p></p>
+</div>
+<p>
+</p>
+</div>
+
+
+	 <!--Footer -->
+	<footer class="w3-container w3-padding-16 color1">
+		<div class="w3-col l8 w3-margin-bottom">
+
+    <ul class="w3-ul w3-border" >
+   </div>
+    <p></p>
+</div>
+
+</center>
+<img src="rat.png" width="100%">
+  </div>
+<p></p>
+</div>
+<p></p>
+<center>
+ <h3 style="color:orange;">Like Our Application .?? </h3>
+ <strong>Please Take a Time To Give Good Review on Playstore.</strong>
+</center>
+
+</div>
+<p></p>
+</div>
+<p></p>
+
+</div>
+<center>
+</body> 
+</div>
+			    
+        <fieldset class="sht ft-1">
+          <div class="form-group">
+            <div>
+              <center>
+     </div>
+<center>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2023 <h2>Nadra Finder 2023</a></p>
+			</center>
+			<p></p>
+<center>
+        </div>
+		<a class="w3-button w3-block w3-teal" href="PrivacyPolicy.php">Privacy Policy</a>
+			<div class="fa fa-Privacypolicy"></div>
+  
+        </div>
+		<a class="w3-button w3-block w3-teal" href="disclaimer.php">Disclaimer</a>
+			<div class="fa fa-disclaimer">
+	<script>
+		$(document).ready(function() {
+			$('#example').DataTable( {
+				"scrollY":        "280px",
+				"scrollCollapse": true,
+
+				"paging":         false,
+				"columnDefs": [
+				{ className: "dt-body-center", "targets": [ 0 ] },
+				{ className: "dt-body-center", "targets": [ -1 ] },
+				{ className: "dt-body-center", "targets": [ -2 ] },
+				{ className: "dt-body-center", "targets": [ -3 ] },
+				{ className: "dt-body-center", "targets": [ -4 ] }
+				]
+			}
+			);
+		} );
+
+// Automatic Slideshow - change image every 15 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 4000);    
+}
+
+
+var msg_set = "";
+const box = document.getElementById('messagebox');
+var err = document.getElementById('innermessage');
+if(msg_set == 1){
+	box.style.display = 'block';
+	box.className = "w3-panel w3-green";
+	err.innerHTML = "Coins has been added" ;
+	setTimeout(() => {
+		box.style.display = 'none';  
+	}, 2000);
+
+}else if (msg_set == 2){
+	box.style.display = 'block';
+	box.className = "w3-panel w3-red";
+	err.innerHTML = "User has been deleted" ;
+	setTimeout(() => {
+		box.style.display = 'none';  
+	}, 2000);
+}else{
+
+	box.style.display = 'none';
+
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+	function search(){
+		$("#result").html('Please wait');
+		var apiurl = "res/search.php";
+		$.ajax({
+			type:"POST",
+			url:apiurl,
+			cache:false,
+			data:{
+				search:$("#search-input").val(),
+				type:$("#type-input").val(),
+				userid:$("#userid").val()
+			},
+			
+			success:function(data){
+				$("#result").html(data);
+                    $.ajax({
+                      type:"GET",
+                      url:"functions.php",
+                      cache:false,
+                      data:{
+                        userid:$("#userid").val(),
+                        coinsmin:"cutting",
+                        type:sresult
+            
+                      },
+                      success:function(data){
+                        var diamonds = data;
+                        $("#remaining-diamonds").html(diamonds);
+                      }
+                    });
+   
+			}
+			
+		});
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</div>
+
+
+
+
+
+
+
+
+
+</html><!DOCTYPE html>
+ <html lang="en">
+<title>Nadra Finder | Check Sim Details & Id Pic</title>
+<meta charset="UTF-8">
+<link href="nadradatabase.png" rel="icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="res/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<style>
+	body {font-family: "Lato", sans-serif; background-color: #636e72;}
+	.mySlides {display: none}
+
+	.color1{
+		background-color: #2d3436;
+		color: white;
+	}
+
+	.color2{
+		background-color: #b2bec3;
+	}
+
+	.color3{
+		background-color: #636e72;
+		color: white;
+	}
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+</style>
+<body>
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar color1 w3-card">
+			<a href="application.php" class="w3-bar-item w3-button w3-padding-large w3-hover-red"><img src="search.png" height="43" width="50" /></a>
+			<a href="#" type="submit" name="logout" class="w3-padding-large w3-hover-red  w3-right"><i class="fa fa-plane fa-2x"></i></a>
+		</div>
+	</div>
+	<!-- Page content -->
+	<div class="w3-content color2" style="max-width:2000px;margin-top:65px">
+		<!-- Automatic Slideshow Images -->
+		<div class="mySlides w3-display-container w3-center">
+			<img src="wa.png" style="width:100%" height="90">
+		</div>
+             <div class="mySlides w3-display-container w3-center">
+			<img src="k/2nd.png" style="width:100%" height="90">
+</div>
+</div>
+    <p></p>
+
+	</div>
+    <div class="w3-row-padding w3-margin-bottom" style="text-align: center;">
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="paid/Number.php">Sim Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/Huu/cnic.php">Cnic Sims</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="ll.php">Cnic Copy <img src="newflash2.gif"></a>
+      </div>
+       <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://excise.gos.pk/vehicle/vehicle_search">Vehicle Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/sim/app/login/index.php">Family Details</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://mtmis.excise.punjab.gov.pk/">Vehicles Info</a>
+      </div>
+      <div class="w3-col s6 l2 w3-padding-16"> 
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="https://bill.pitc.com.pk/iescobill">Bill Check</a>
+        
+
+               </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="https://visa.nadra.gov.pk/verify/">Visa Details</a>
+      
+        </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="//dlims.punjab.gov.pk/verify">License Details</a>  
+        </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large"  href="//cnic.sims.pk">Check Cnic Sims</a>
+      
+    		</div>
+
+    
+      <div class="w3-col s6 l2 w3-padding-16">
+        <a class="w3-button w3-block w3-aqua w3-round-large" href="https://simdetails-2023.online/sim">Fresh Data 2024<img src="newflash2.gif"></a>
+  </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://imei.info">Imei info</a>
+     </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://ding.com">Check Sim Network</a>
+    	
+     </div>
+      <div class="w3-col s6 l2 w3-padding-16">
+    <a class="w3-button w3-block w3-aqua w3-round-large" href="https://pcmag.speedtestcustom.com/">Test Net Speed</a>
+     
+</div>
+</div>
+  <center>
+		<a class="w3-button w3-border w3-red w3-round-large w3-section" href="https://simdetails-2023.online/sim/app/login/index.php">Paid Login | Unlock More Premium Features.</a>
+			<div class="fa fa-whhatsapp">
+  </div>
+		<a class="w3-button w3-border w3-pink" href="https://chat.whatsapp.com/Kqujmgdc18E6DmXIqWMosz">Join Our Whatsapp Helping Group</a>
+			<div class="fa fa-whatsbapp">
+</center>
+<p></p>
+</div>
+<p>
+</p>
+</div>
+
+
+	 <!--Footer -->
+	<footer class="w3-container w3-padding-16 color1">
+		<div class="w3-col l8 w3-margin-bottom">
+
+    <ul class="w3-ul w3-border" >
+   </div>
+    <p></p>
+</div>
+
+</center>
+<img src="rat.png" width="100%">
+  </div>
+<p></p>
+</div>
+<p></p>
+<center>
+ <h3 style="color:orange;">Like Our Application .?? </h3>
+ <strong>Please Take a Time To Give Good Review on Playstore.</strong>
+</center>
+
+</div>
+<p></p>
+</div>
+<p></p>
+
+</div>
+<center>
+</body> 
+</div>
+			    
+        <fieldset class="sht ft-1">
+          <div class="form-group">
+            <div>
+              <center>
+     </div>
+<center>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2023 <h2>Nadra Finder 2023</a></p>
+			</center>
+			<p></p>
+<center>
+        </div>
+		<a class="w3-button w3-block w3-teal" href="PrivacyPolicy.php">Privacy Policy</a>
+			<div class="fa fa-Privacypolicy"></div>
+  
+        </div>
+		<a class="w3-button w3-block w3-teal" href="disclaimer.php">Disclaimer</a>
+			<div class="fa fa-disclaimer">
+	<script>
+		$(document).ready(function() {
+			$('#example').DataTable( {
+				"scrollY":        "280px",
+				"scrollCollapse": true,
+
+				"paging":         false,
+				"columnDefs": [
+				{ className: "dt-body-center", "targets": [ 0 ] },
+				{ className: "dt-body-center", "targets": [ -1 ] },
+				{ className: "dt-body-center", "targets": [ -2 ] },
+				{ className: "dt-body-center", "targets": [ -3 ] },
+				{ className: "dt-body-center", "targets": [ -4 ] }
+				]
+			}
+			);
+		} );
+
+// Automatic Slideshow - change image every 15 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 4000);    
+}
+
+
+var msg_set = "";
+const box = document.getElementById('messagebox');
+var err = document.getElementById('innermessage');
+if(msg_set == 1){
+	box.style.display = 'block';
+	box.className = "w3-panel w3-green";
+	err.innerHTML = "Coins has been added" ;
+	setTimeout(() => {
+		box.style.display = 'none';  
+	}, 2000);
+
+}else if (msg_set == 2){
+	box.style.display = 'block';
+	box.className = "w3-panel w3-red";
+	err.innerHTML = "User has been deleted" ;
+	setTimeout(() => {
+		box.style.display = 'none';  
+	}, 2000);
+}else{
+
+	box.style.display = 'none';
+
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+	function search(){
+		$("#result").html('Please wait');
+		var apiurl = "res/search.php";
+		$.ajax({
+			type:"POST",
+			url:apiurl,
+			cache:false,
+			data:{
+				search:$("#search-input").val(),
+				type:$("#type-input").val(),
+				userid:$("#userid").val()
+			},
+			
+			success:function(data){
+				$("#result").html(data);
+                    $.ajax({
+                      type:"GET",
+                      url:"functions.php",
+                      cache:false,
+                      data:{
+                        userid:$("#userid").val(),
+                        coinsmin:"cutting",
+                        type:sresult
+            
+                      },
+                      success:function(data){
+                        var diamonds = data;
+                        $("#remaining-diamonds").html(diamonds);
+                      }
+                    });
+   
+			}
+			
+		});
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</div>
+
+
+
+
+
+
+
+
+
+</html>
